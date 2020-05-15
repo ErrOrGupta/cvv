@@ -1,18 +1,55 @@
+.top-container{
 
-  body {
-    background-color: #dcd6f7;
-  }
+  padding: 20px;
+  position: relative;
+  padding: 200px;
 
-  hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: #a6b1e1;
-    border-width: 10px;
-    width: 3%;
-  }
-  h1{
-    color: #424874;
-  }
-  h2{
-    color: #424874;
-  }
+}
+body {
+  margin: 0px;
+  text-align: center;
+
+  background-color: black;
+}
+h1 {
+margin: 0 auto 0 auto;
+display: block;
+font-size: 60px;
+font-family: "Comic Sans MS", cursive, sans-serif;
+color: white;
+}
+
+.middle-container{
+background-color: grey;
+}
+.bottom-container{
+background-color: grey;
+text-decoration-color: white
+
+}
+.bottom-cloud{
+position: absolute;
+left: 500px;
+}
+ .skills{
+  background-color: white;
+}
+
+.mountain{
+  width: 1200px;
+  height: 600px;
+  position: relative;
+}
+.top-cloud{
+ position: absolute;
+  right: 300px;
+  top: 60px;
+  width: 400px;
+}
+.photu{
+  width: 200px
+}
+.color{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: white;
+}
