@@ -1,20 +1,19 @@
-.top-container{
 
-  padding: 1.25em;
-  position: relative;
-  padding: 12em;
-
-}
-@media only screen {
+@media only screen and (max-width:2500px) {
   body {
     margin: 0px;
     text-align: center;
 
     background-color: black;
   }
-}
+  .top-container{
 
-h1 {
+  padding: 1.25em;
+  position: relative;
+  padding: 12em;
+
+}
+  h1 {
 margin:1em auto 0 auto;
 display: block;
 font-size: 5.62em;
@@ -68,3 +67,6 @@ h3{
 .footer-link{
   color: #11999E;
 }
+}
+
+
