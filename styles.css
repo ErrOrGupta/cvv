@@ -1,72 +1,141 @@
+body {
+  margin: 0px;
+  text-align: center;
+  background-color: black;
+}
 
-@media only screen and (max-width:2500px) {
-  body {
-    margin: 0px;
-    text-align: center;
-
-    background-color: black;
-  }
-  .top-container{
-
+.top-container {
   padding: 1.25em;
   position: relative;
   padding: 12em;
-
-}
-  h1 {
-margin:1em auto 0 auto;
-display: block;
-font-size: 5.62em;
-font-family: "Comic Sans MS", cursive, sans-serif;
-color: #66BFBF;
-line-height: 2;
 }
 
-.middle-container{
-background-color: grey;
+h1 {
+  margin: 0 auto 0 auto;
+  display: block;
+  font-size: 5.62em;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #66BFBF;
+  line-height: 2;
 }
-.bottom-container{
-background-color: grey;
-text-decoration-color: white
 
-}
-.bottom-cloud{
-position: absolute;
-left: 31.25em;
-}
- .skills{
+.middle-container {
   background-color: white;
 }
 
-.mountain{
-  width: 75em;
-  height: 37.5em;
+.bottom-container {
+  background-color: grey;
+  text-decoration-color: white
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 31.25em;
+}
+
+.skills {
+  background-color: white;
+}
+
+.mountain {
+  width: 90%;\
+  height: 80%
   position: relative;
 }
-.top-cloud{
- position: absolute;
-  right: 18.75em;
-  top: 4em;
-  width: 24em;
+
+.top-cloud {
+  position: absolute;
+  left: 65%;
+  top: 1%;
+  width: 25%;
 }
-.photu{
+
+.photu {
   width: 12em;
+  margin-top: 100px;
 }
-.color{
+
+.color {
   font-family: "Comic Sans MS", cursive, sans-serif;
   color: white;
 }
-h2{
+
+h2 {
   color: #66BFBF;
   font-size: 2.5rem;
   font-weight: normal;
 }
-h3{
+
+h3 {
   color: #11999E;
 }
-.footer-link{
+
+.footer-link {
   color: #11999E;
 }
+
+.Skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  image-orientation:
 }
 
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
 
+.chillies {
+  width: 25%;
+  float: right;
+  padding-top: 100px;
+}
+
+.contact-me {
+  background-color: grey;
+}
+
+hr {
+  border-style: none;
+  border-width: 10px;
+  width: 3%;
+  border-top-style: dotted;
+  border-color: grey;
+}
+
+.Skills {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.txt {
+  margin-bottom: 100px;
+}
+
+.txt2 {
+  padding-top: 100px;
+}
+
+.button {
+  background-color: turquoise;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+@media(max-width: 786px) {
+  .top-container {
+    padding: 15px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
